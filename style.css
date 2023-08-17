@@ -1,0 +1,372 @@
+*{
+    font-weight: normal;
+    font-family: Helvetica,Arial,sans-serif;
+    margin:0;
+}
+.body{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    position: absolute;
+    top: 0;
+    display: flex;
+    
+    position: fixed;
+    align-items: center;
+    padding-left: 50px;
+    width: 100%;
+    background-color: #fff;
+    height: 60px;
+}
+
+.logo{
+    cursor: pointer;
+    width: 70px;
+    height: 50px;
+    object-fit: contain;
+}
+.options a{
+    
+
+    font-weight: normal;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    margin-left: 30px;
+    text-decoration:none ;
+    color: #111;
+
+}
+.options a:hover{
+
+    font-weight: 600;
+    height: 100%;
+
+}
+.search i{
+   
+    font-size: larger;
+    margin-right: 20px;
+
+}
+.search{
+    cursor: pointer;
+    display: flex;
+    margin-left: 600px;
+    align-items: center;
+
+    
+}
+.search span{
+    margin-left: 20px;
+    font-size: x-large;
+
+}
+.india img{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    
+    margin-left: 20px;
+}
+.indianbaby{
+    cursor: pointer;
+    margin-left: 0px;
+    border-bottom: 20px;
+} 
+.color{
+    color: silver;
+}
+.main{
+  
+   color: #fff;
+    display: flex;
+    
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:500px;
+    width:100%;
+    background-image: url("https://www.audi.com/content/dam/gbp2/career-n/Overview/1920x600_MST_T4_Tiantian_DSC00293_V2.jpg?imwidth=1920&imdensity=1");
+    background-size: cover;
+}
+.main h1{
+    font-weight: normal;
+    font-family: Helvetica,Arial,sans-serif;
+    margin: 0;
+    font-weight: 350;
+    font-size: 4rem;
+}
+.main h3{
+    font-weight: normal;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 1.5rem;
+}
+.main button{
+    cursor: pointer;    
+   height: 50px;
+   width: 214px;
+    color: inherit;
+    background: transparent;
+    border: 1px solid #fff ;
+    padding:10px 3px ; 
+}
+.subhead h2{
+    font-weight: 100;
+   
+    line-height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 48px;
+    height: 18vh;
+
+}
+.container{
+    margin-top: 50px;
+    width: 60%;
+    display: flex;
+    margin-left: 2%;
+
+}
+.container div{
+    margin: 5px;
+}
+.container h2{
+    font-weight: normal;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+}.container p{
+    font-weight: normal;
+    font-family: Helvetica,Arial,sans-serif;
+}
+.smallp{
+    font-weight: normal;
+    font-family: Helvetica,Arial,sans-serif;
+    color: #111;
+    font-size: 10px;
+}
+.features{
+    padding: 50px 12px;
+    font-size: 22px;
+     
+}
+.row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+.text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    
+
+}
+.img-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+
+}
+.img-col img{
+    display: block;
+    width: 90%;
+    margin: auto;
+
+}
+.features h3{
+    padding-left: 100px;
+    font-weight: normal;
+    font-family: Helvetica,Arial,sans-serif;
+}
+.features p{
+    font-weight:normal;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    padding-left: 100px;
+    margin-right: 10%;
+}
+.features button{
+    cursor: pointer;    
+   height: 55px;
+   width: 250px;
+    color: inherit;
+    background: transparent;
+    border: 1px solid #000000 ;
+    padding:10px 3px ; 
+    margin-left: 14%;
+}
+.lastheader{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 1.8rem;
+   font-family: Helvetica,Arial,sans-serif;
+   font-weight: normal;
+
+}
+.last-container{
+    margin-top: 50px;
+    width: 60%;
+    display: flex;
+    margin-left: 2%;
+    font-family: Helvetica,Arial,sans-serif;
+   font-weight: normal;
+}
+.last-container div{
+    margin: 1.5px;
+}
+.last-container span{
+    color: silver;
+    font-size: 14px;
+   
+}
+.last-container h3{
+    font-size: 20px;
+    font-weight: 200;
+    padding: 20px;
+}
+.media-center button{
+    margin-top: 10%;
+    font-size: 17px;
+    font-family: Helvetica,Arial,sans-serif;
+   font-weight: normal;
+    background: #111;
+    color: #fff;
+    margin-left: 41%;
+    height: 56px;
+    width: 275px;
+    
+}
+.last-row{
+    margin-top: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7%;
+}
+.last-text{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    padding-right: 10px;
+
+}
+.last-img{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    
+
+}
+
+.last-img img{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+
+.last-text h3{
+    padding-left: 100px;
+    font-weight: normal;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 30px;
+}
+.last-text p{
+    font-weight: normal;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    padding-left: 100px;
+    margin-right: 10%;
+}
+.last-text button{
+    cursor: pointer;    
+    height: 55px;
+    width: 250px;
+     color: inherit;
+     background: transparent;
+     border: 1px solid #000000 ;
+     padding:10px 3px ; 
+     margin-left: 14%;
+     font-size: 17px;
+}
+
+.tiny-p p{
+    
+    font-size: 13px;
+}
+footer{
+    
+    background-color: #111;
+   
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid silver;
+}
+
+
+.table1 ul{
+
+    display: flex;
+    flex-direction: column;
+}
+.last-col{
+    margin-right: 510px;
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+    padding-top: 122px;
+}
+.social-logo{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    margin-top: 50px;
+    width: 30%;
+    margin-right: 10px;
+}
+.table1 ul a{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 30px;
+    color: #fff;
+    padding-left: 100px;
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.table1 h3{
+    color: #fff;
+    padding-left: 100px;
+    font-weight: normal;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 25px;
+}
+.copyright{
+    cursor: pointer;
+    margin-top: 20px;
+    
+    color: #fff;
+   display: flex;
+}
+.copy-1{
+    display: flex;
+    
+}
+.copy-1 p{
+    margin-left: 20px;
+    padding-left: 15px;
+}
+.english{
+    margin-left: 200px;
+}
+
+    
